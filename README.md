@@ -8,7 +8,7 @@
 
 ## Features
 
-### ** Speedtest Monitoring **: 
+### Speedtest Monitoring: 
 * Takes a speedtest every X minutes on multiple servers and updates the WebUi
 * Auto uploading of speedtest database to remote server
 * Generate Graphs for all speedtest results
@@ -24,7 +24,8 @@
 * Speedtest-cli installer for Windows / MAC / Linux
 * Bundle App into packages
 
-##Notes:
+
+## Notes:
 
 * This project was inspired by Jeff Geerling's [Internet Pi](https://github.com/geerlingguy/internet-pi) project.
 * Thanks to all the bad ISPs out there for making me do this.
