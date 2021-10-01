@@ -21,7 +21,7 @@ st.set_page_config(
 
 
 def db_init():
-    db_path = (Path(__file__).parent / 'secrets' / 'speedtest_log.sqlite').absolute()
+    db_path = (Path(__file__).parent / ".." / 'secrets' / 'speedtest_log.sqlite').absolute()
     global_init(db_path.as_posix())
 
 
