@@ -5,26 +5,31 @@
 
 #### Demo: [speedtestdata.ml](https://speedtestdata.ml/)
 
-********************
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## Features
 
-### Speedtest Monitoring: 
+### ➤ Speedtest Monitoring: 
 * Takes a speedtest every X minutes on multiple servers and updates the WebUi.
-* Auto uploading of speedtest database to remote server.
+* Auto uploading of speedtest database to remote server using SSH.
 * Generate Graphs for all speedtest results.
 
-### Web UI
+
+![-----------------------------------------------------](https://github.com/andreasbm/readme/blob/master/assets/lines/aqua.png?raw=true)
+
+
+### ➤ Web UI: 
 * Choose Servers filtered by county / ISP / region,
 * Display Speedtest Graphs with custom date picker.
 * Recent Speedtest Graphs from all Servers.
 
-*******
+![-----------------------------------------------------](https://github.com/andreasbm/readme/blob/master/assets/lines/aqua.png?raw=true)
 
 ## ToDO:
 
 - [ ] Add a Argument Parser.
 - [ ] Improve Streamlit web-app code.
+- [ ] Create a Server Picker.
 - [ ] Add a Config file and parser.
 - [ ] Add MTR and Ping Monitoring with log parsing.
 - [ ] Add Page load time monitoring.
@@ -32,9 +37,11 @@
 - [ ] Bundle App into packages.
 - [ ] Add more speedtest sources (Ex: Cloudflare, Google, Digital Ocean ...).
 - [ ] Add Iperf Tests and parse logs.
-- [ ] Create daily Updated server list scraped from Speedtest.net.
+- [ ] ~~Create daily Updated server list scraped from Speedtest.net.~~
+- [ ] Auto update server ID when server is unavailable.
 - [ ] Create lit of publicly available Iperf Servers.
 
+![-----------------------------------------------------](https://github.com/andreasbm/readme/blob/master/assets/lines/aqua.png?raw=true)
 
 ## Setup:
 
